@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-14T19:15:42.172Z",
+        "line": 4,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User is on netbanking landing page",
+            "match": {
+              "location": "stepDefinations.MyStepDefinations.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Login to application using username and password",
+            "match": {
+              "location": "stepDefinations.MyStepDefinations.user_login_to_application_using_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinations.MyStepDefinations.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "cards are displayed",
+            "match": {
+              "location": "stepDefinations.MyStepDefinations.cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Login.feature",
+    "tags": []
+  }
+]
